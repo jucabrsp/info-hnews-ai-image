@@ -1,4 +1,4 @@
-name: Deploy to WordPress.org
+name: Deploy WordPress Plugin
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
 
 jobs:
   deploy:
-    name: Deploy Plugin
     runs-on: ubuntu-latest
 
     steps:
@@ -17,9 +16,11 @@ jobs:
           fetch-depth: 0
 
       - name: Deploy to WordPress.org
-        uses: bradmkjr/action-wordpress-org-plugin-deploy@main
+        uses: wearerequired/action-wordpress-plugin-deploy@v1
+        with:
+          slug: info-hnews-ai-image
+          generate-zip: true
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SLUG: info-hnews-ai-image
-
+          
