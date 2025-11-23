@@ -1,0 +1,52 @@
+/* INFOHNEWS Backend Styles*/
+
+.warning {
+	color: red;
+}
+
+.ok {
+	color: green;
+}
+
+.description {
+	color: #555 !important;
+}
+
+/* Styles for Metabox/Editor Panel */
+#infohnews-metabox-content .spinner {
+    visibility: hidden;
+    float: none;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+#infohnews-metabox-content .spinner.is-active {
+    visibility: visible;
+}
+
+#infohnews-status-message {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    display: none;
+}
+
+#infohnews-status-message.infohnews-success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    display: block;
+}
+
+#infohnews-status-message.infohnews-error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+    display: block;
+}
+
+#infohnews-metabox-content textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
