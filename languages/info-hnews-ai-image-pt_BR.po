@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Info HNews AI Image\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-02 14:40+0000\n"
+"PO-Revision-Date: 2025-11-16 22:19-0300\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.8\n"
+"X-Domain: info-hnews-ai-image\n"
+
+#: includes/class-infohnews-editor.php:99
+#, php-format
+msgid "Active AI-Service: %s"
+msgstr "Serviço de IA Ativo: %s"
+
+#: includes/class-infohnews-settings.php:261
+msgid "AI-Prompt Settings"
+msgstr "Configurações de Prompt de IA"
+
+#: includes/class-infohnews-settings.php:91
+msgid "AI-Service"
+msgstr "Serviço de IA"
+
+#: includes/class-infohnews-editor.php:104
+msgid "Alternative AI-prompt:"
+msgstr "Prompt de IA alternativo:"
+
+#: includes/class-infohnews-settings.php:115
+msgid "API Key"
+msgstr "Chave da API"
+
+#: includes/class-infohnews-api-handler.php:27
+#, php-format
+msgid "API key/token not configured for "
+msgstr "Chave de API/token não configurado para "
+
+#: includes/class-infohnews-settings.php:87
+msgid "API Settings"
+msgstr "Configurações da API"
+
+#: includes/class-infohnews-settings.php:143
+msgid "Choose a model. SDXL 1.0 is recommended for reliability."
+msgstr "Escolha um modelo. SDXL 1.0 é recomendado para maior confiabilidade."
+
+#: includes/class-infohnews-editor.php:45
+msgid "AI Image"
+msgstr "Imagem IA"
+
+#: includes/class-infohnews-api-handler.php:154
+msgid "Could not save image file: "
+msgstr "Não foi possível salvar o arquivo da imagem: "
+
+#: includes/class-infohnews-ajax.php:40
+msgid ""
+"Could not generate a prompt from the post content. Please ensure the selected "
+"source (title, excerpt, or content) is not empty."
+msgstr ""
+"Não foi possível gerar um prompt a partir do conteúdo do post. Por favor, "
+"garanta que a fonte selecionada (título, excerto ou conteúdo) não está vazia."
+
+#: includes/class-infohnews-settings.php:19
+msgid "Donation"
+msgstr "Doação"
+
+#: includes/class-infohnews-settings.php:183
+msgid "Enter custom engine ID"
+msgstr "Digite um ID de motor personalizado"
+
+#: includes/class-infohnews-settings.php:178
+msgid "Enter manually (custom)"
+msgstr "Digitar manualmente (personalizado)"
+
+#: includes/class-infohnews-editor.php:51
+msgid "Generate"
+msgstr "Gerar"
+
+#: includes/class-infohnews-editor.php:114
+msgid "Generate image"
+msgstr "Gerar imagem"
+
+#: info-hnews-ai-image.php:73
+msgid "Generating image..."
+msgstr "Gerando imagem..."
+
+#: includes/class-infohnews-settings.php:107
+msgid "Height"
+msgstr "Altura"
+
+#: includes/class-infohnews-settings.php:99
+#: includes/class-infohnews-settings.php:111
+msgid "Image dimensions"
+msgstr "Dimensões da imagem"
+
+#: includes/class-infohnews-ajax.php:82
+msgid "Image successfully generated!"
+msgstr "Imagem gerada com sucesso!"
+
+#: includes/class-infohnews-ajax.php:84
+msgid "Image uploaded but could not be set as featured image."
+msgstr ""
+"A imagem foi carregada, mas não foi possível defini-la como imagem destacada."
+
+#: includes/class-infohnews-ajax.php:24
+msgid "Insufficient permission."
+msgstr "Permissões insuficientes."
+
+#: includes/class-infohnews-api-handler.php:36
+msgid "Invalid AI service: "
+msgstr "Serviço de IA inválido: "
+
+#: includes/class-infohnews-editor.php:108
+msgid "Leave empty to use the auto-prompt source."
+msgstr "Deixe em branco para usar a fonte de prompt automático."
+
+#: includes/class-infohnews-settings.php:95
+msgid "Model ID"
+msgstr "ID do Modelo"
+
+#: includes/class-infohnews-settings.php:119
+msgid "Model Identifier"
+msgstr "Identificador do Modelo"
+
+#: includes/class-infohnews-editor.php:110
+msgid "Negative AI-prompt (optional):"
+msgstr "Prompt de IA negativo (opcional):"
+
+#: includes/class-infohnews-settings.php:272
+msgid "Page - or Post content"
+msgstr "Conteúdo da página ou do post"
+
+#: includes/class-infohnews-settings.php:270
+msgid "Page - or Post title"
+msgstr "Título da página ou do post"
+
+#: includes/class-infohnews-settings.php:131
+msgid "Paste your Access Token from Hugging Face here."
+msgstr "Cole o seu Token de Acesso do Hugging Face aqui."
+
+#: includes/class-infohnews-ajax.php:32
+msgid "Plugin settings not found."
+msgstr "Configurações do plugin não encontradas."
+
+#: includes/class-infohnews-settings.php:159
+msgid "Recommended size for SDXL is 1024x1024."
+msgstr "O tamanho recomendado para SDXL é 1024x1024."
+
+#: includes/class-infohnews-ajax.php:22
+msgid "Security check failed."
+msgstr "A verificação de segurança falhou."
+
+#: includes/class-infohnews-settings.php:70
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-infohnews-settings.php:266
+msgid "Source for auto-prompt"
+msgstr "Fonte para prompt automático"
+
+#: includes/class-infohnews-editor.php:91
+#, php-format
+msgid "Source for auto-prompt: %s"
+msgstr "Fonte para prompt automático: %s"
+
+#: includes/class-infohnews-editor.php:112
+msgid "What to avoid in the image?"
+msgstr "O que evitar na imagem?"
+
+#: includes/class-infohnews-settings.php:103
+#: includes/class-infohnews-settings.php:123
+msgid "Width"
+msgstr "Largura"
+
+#: includes/class-infohnews-settings.php:213
+msgid ""
+"Width/height must be in increments of 64. Total pixels cannot exceed 1,048,576."
+msgstr ""
+"A largura/altura deve ser em incrementos de 64. O total de píxeis não pode "
+"exceder 1.048.576."
+
+#: includes/class-infohnews-settings.php:94
+msgid "Access Token"
+msgstr "Token de Acesso"
+
+#: includes/class-infohnews-settings.php:275
+msgid "Default Image Style"
+msgstr "Estilo de Imagem Padrão"
+
+#: includes/class-infohnews-settings.php:101
+msgid "Engine ID"
+msgstr "ID do Motor"
+
+#: includes/class-infohnews-settings.php:185
+msgid "SDXL 1.0 is a stable and powerful option."
+msgstr "SDXL 1.0 é uma opção estável e poderosa."
+
+#: includes/class-infohnews-settings.php:175
+msgid "Stable Diffusion 3 Medium"
+msgstr "Stable Diffusion 3 Medium"
+
+#: includes/class-infohnews-settings.php:174
+msgid "Stable Diffusion XL 1.0 (Recommended)"
+msgstr "Stable Diffusion XL 1.0 (Recomendado)"
+
+#: includes/class-infohnews-settings.php:25
+msgid "Visit plugin site"
+msgstr "Visitar site do plugin"
+
+#: includes/class-infohnews-settings.php:271
+msgid "Excerpt (preferred)"
+msgstr "Excerto (preferencial)"
+
+#: includes/class-infohnews-settings.php:103
+msgid "Hugging Face (Requires Token)"
+msgstr "Hugging Face (Requer Token)"
+
+#: includes/class-infohnews-settings.php:105
+msgid "Pollinations.ai (Free)"
+msgstr "Pollinations.ai (Grátis)"
+
+#: includes/class-infohnews-settings.php:104
+msgid "Stability AI"
+msgstr "Stability AI"
+
+#: includes/class-infohnews-settings.php:418
+msgid ""
+"Get AI MAX Pro Version, discover all the EXCLUSIVE features and get 15% off at "
+"checkout using Coupon: MAX15"
+msgstr ""
+"Obtenha a Versão Pro do AI MAX, descubra todos os recursos EXCLUSIVOS e ganhe "
+"15% de desconto no checkout usando o Cupom: MAX15"
+
+#: includes/class-infohnews-settings.php:420
+msgid "CHECK NOW !"
+msgstr "CONFIRA AGORA !"
+
+#: includes/class-infohnews-ajax.php:28
+msgid "Invalid or non-existent post ID."
+msgstr "ID de post inválido ou inexistente."
+
+#: includes/class-infohnews-ajax.php:88
+msgid "An error occurred during image generation."
+msgstr "Ocorreu um erro durante a geração da imagem."
+
+#: includes/class-infohnews-editor.php:96
+#, php-format
+msgid "Please enter your API key for %s in the plugin settings."
+msgstr "Por favor, insira sua chave de API para %s nas configurações do plugin."
+
+#: includes/class-infohnews-editor.php:106
+msgid "Dica: Se o título gerar texto (ex: \"Sobre Nós\"), descreva a cena aqui."
+msgstr "Dica: Se o título gerar texto (ex: \"Sobre Nós\"), descreva a cena aqui."
+
+#: includes/class-infohnews-editor.php:112
+msgid "e.g. text, blurry, watermark"
+msgstr "ex: texto, borrado, marca d'água"
+
+#: includes/class-infohnews-settings.php:154
+#: includes/class-infohnews-settings.php:208
+msgid "Width:"
+msgstr "Largura:"
+
+#: includes/class-infohnews-settings.php:156
+#: includes/class-infohnews-settings.php:210
+msgid "Height:"
+msgstr "Altura:"
+
+# ======================================================
+#  NOVAS TRADUÇÕES ADICIONADAS
+# ======================================================
+#: includes/class-infohnews-settings.php:292
+msgid "Ultra-Realistic Photo Style"
+msgstr "Estilo Foto Ultrarrealista"
+
+#: includes/class-infohnews-settings.php:293
+msgid "Realistic Drawing Style"
+msgstr "Estilo Desenho Realista"
+
+#: includes/class-infohnews-settings.php:294
+msgid "Simple Drawing Style"
+msgstr "Estilo Desenho Simples"
+
+#: info-hnews-ai-image.php:74
+msgid "Error: "
+msgstr "Erro: "
+
+#: info-hnews-ai-image.php:75
+msgid "Unknown Error."
+msgstr "Erro desconhecido."
+
+#: info-hnews-ai-image.php:76
+msgid "AJAX Error: "
+msgstr "Erro AJAX: "
+
+#: info-hnews-ai-image.php:77
+msgid " (Status: "
+msgstr " (Status: "
+
+#: info-hnews-ai-image.php:78
+msgid "Failed: "
+msgstr "Falhou: "
