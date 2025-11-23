@@ -16,7 +16,9 @@ jobs:
       - name: WordPress Plugin Deploy
         uses: 10up/action-wordpress-plugin-deploy@stable
         with:
-          svn_url: https://plugins.svn.wordpress.org/info-hnews-ai-image
+          generate-zip: true
+          assets-dir: assets
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_URL: https://plugins.svn.wordpress.org/info-hnews-ai-image
