@@ -1,26 +1,27 @@
-name: Deploy WordPress Plugin
+name: Deploy to WordPress.org
 
 on:
   push:
     tags:
-      - "*"
+      - '*'
 
 jobs:
   deploy:
+    name: Deploy Plugin
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Deploy to WordPress.org
-        uses: wearerequired/action-wordpress-plugin-deploy@v1
+      - name: WordPress Plugin Deploy
+        uses: wordpress/plugin-directory-deploy@v1
         with:
           slug: info-hnews-ai-image
-          generate-zip: true
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+
           
