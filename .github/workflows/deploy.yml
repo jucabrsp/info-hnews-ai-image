@@ -7,19 +7,19 @@ on:
 
 jobs:
   deploy:
+    name: Deploy Plugin
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: WordPress Plugin Deploy
-        uses: 10up/action-wordpress-plugin-deploy@v2
         with:
-          svn_url: https://plugins.svn.wordpress.org/info-hnews-ai-image
-          generate-zip: true
-          assets-dir: assets
+          fetch-depth: 0
+
+      - name: Deploy to WordPress.org
+        uses: bradmkjr/action-wordpress-org-plugin-deploy@main
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: info-hnews-ai-image
 
